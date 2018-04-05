@@ -112,7 +112,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/lib/libcamdrv.so:system/lib/libcamdrv.so \
     vendor/google/sprout/proprietary/lib/libcamdrv_FrmB.so:system/lib/libcamdrv_FrmB.so \
     vendor/google/sprout/proprietary/lib/libcameracustom.so:system/lib/libcameracustom.so \
-    vendor/google/sprout/proprietary/lib/libcurl.so:system/lib/libcurl.so \
     vendor/google/sprout/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
     vendor/google/sprout/proprietary/lib/libcvsd_mtk.so:system/lib/libcvsd_mtk.so \
     vendor/google/sprout/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
@@ -127,7 +126,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/lib/libimageio_FrmB.so:system/lib/libimageio_FrmB.so \
     vendor/google/sprout/proprietary/lib/libimageio_plat_drv.so:system/lib/libimageio_plat_drv.so \
     vendor/google/sprout/proprietary/lib/libimageio_plat_drv_FrmB.so:system/lib/libimageio_plat_drv_FrmB.so \
-    vendor/google/sprout/proprietary/lib/libion.so:system/lib/libion.so \
     vendor/google/sprout/proprietary/lib/libion_mtk.so:system/lib/libion_mtk.so \
     vendor/google/sprout/proprietary/lib/libm4u.so:system/lib/libm4u.so \
     vendor/google/sprout/proprietary/lib/libmnl.so:system/lib/libmnl.so \
