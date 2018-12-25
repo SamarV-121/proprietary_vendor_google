@@ -69,6 +69,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
     vendor/google/sprout/proprietary/lib/libMtkOmxVdec.so:system/lib/libMtkOmxVdec.so \
     vendor/google/sprout/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
+    vendor/google/sprout/proprietary/lib/libaed.so:system/lib/libaed.so \
     vendor/google/sprout/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
     vendor/google/sprout/proprietary/lib/libaudiocomponentengine.so:system/lib/libaudiocomponentengine.so \
     vendor/google/sprout/proprietary/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
