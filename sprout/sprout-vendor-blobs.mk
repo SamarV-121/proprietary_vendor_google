@@ -27,6 +27,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/bin/mtk_agpsd:system/bin/mtk_agpsd \
     vendor/google/sprout/proprietary/bin/mtkrild:system/bin/mtkrild \
     vendor/google/sprout/proprietary/bin/muxreport:system/bin/muxreport \
+    vendor/google/sprout/proprietary/bin/netd:system/bin/netd \
     vendor/google/sprout/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
     vendor/google/sprout/proprietary/bin/thermal_manager:system/bin/thermal_manager \
     vendor/google/sprout/proprietary/bin/wmt_loader:system/bin/wmt_loader \
