@@ -17,6 +17,30 @@ LOCAL_PATH := $(call my-dir)
 ifneq ($(filter sprout, $(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libcam1client
+LOCAL_SRC_FILES := proprietary/lib/libcam1client.so
+LOCAL_PROPRIETARY_MODULE = true
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libcam_utils
+LOCAL_SRC_FILES := proprietary/lib/libcam_utils.so
+LOCAL_PROPRIETARY_MODULE = true
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libcam.utils
+LOCAL_SRC_FILES := proprietary/lib/libcam.utils.so
+LOCAL_PROPRIETARY_MODULE = true
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := FmRadioTrampoline2
 LOCAL_MODULE_OWNER := google
 LOCAL_SRC_FILES := proprietary/app/FmRadioTrampoline2/FmRadioTrampoline2.apk

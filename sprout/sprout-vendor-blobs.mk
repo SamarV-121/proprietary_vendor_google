@@ -84,7 +84,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/lib/libcam.camadapter.so:system/lib/libcam.camadapter.so \
     vendor/google/sprout/proprietary/lib/libcam.campipe.so:system/lib/libcam.campipe.so \
     vendor/google/sprout/proprietary/lib/libcam.camshot.so:system/lib/libcam.camshot.so \
-    vendor/google/sprout/proprietary/lib/libcam.client.so:system/lib/libcam.client.so \
+    vendor/google/sprout/proprietary/lib/libcam1client.so:system/lib/libcam1client.so \
     vendor/google/sprout/proprietary/lib/libcam.device1.so:system/lib/libcam.device1.so \
     vendor/google/sprout/proprietary/lib/libcam.device3.so:system/lib/libcam.device3.so \
     vendor/google/sprout/proprietary/lib/libcam.exif.so:system/lib/libcam.exif.so \
