@@ -96,7 +96,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/lib/libcam.metadata.so:system/lib/libcam.metadata.so \
     vendor/google/sprout/proprietary/lib/libcam.metadataprovider.so:system/lib/libcam.metadataprovider.so \
     vendor/google/sprout/proprietary/lib/libcam.paramsmgr.so:system/lib/libcam.paramsmgr.so \
-    vendor/google/sprout/proprietary/lib/libcam.utils.sensorlistener.so:system/lib/libcam.utils.sensorlistener.so \
     vendor/google/sprout/proprietary/lib/libcam.utils.so:system/lib/libcam.utils.so \
     vendor/google/sprout/proprietary/lib/libcam3_app.so:system/lib/libcam3_app.so \
     vendor/google/sprout/proprietary/lib/libcam3_hwnode.so:system/lib/libcam3_hwnode.so \
