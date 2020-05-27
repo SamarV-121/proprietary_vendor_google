@@ -144,6 +144,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/lib/libvcodec_utility.so:system/lib/libvcodec_utility.so \
     vendor/google/sprout/proprietary/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
     vendor/google/sprout/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
+    vendor/google/sprout/proprietary/vendor/lib/libskia.so:system/vendor/lib/libskia.so \
     vendor/google/sprout/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/google/sprout/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/google/sprout/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
