@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/bin/md_ctrl:system/bin/md_ctrl \
     vendor/google/sprout/proprietary/bin/msensord:system/bin/msensord \
     vendor/google/sprout/proprietary/bin/mtk_agpsd:system/bin/mtk_agpsd \
-    vendor/google/sprout/proprietary/bin/mtkrild:system/bin/mtkrild \
     vendor/google/sprout/proprietary/bin/muxreport:system/bin/muxreport \
     vendor/google/sprout/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
     vendor/google/sprout/proprietary/bin/thermal_manager:system/bin/thermal_manager \
@@ -76,9 +75,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/lib/libbessound_hd_mtk.so:system/lib/libbessound_hd_mtk.so \
     vendor/google/sprout/proprietary/lib/libblisrc.so:system/lib/libblisrc.so \
     vendor/google/sprout/proprietary/lib/libblisrc32.so:system/lib/libblisrc32.so \
-    vendor/google/sprout/proprietary/lib/libbluetooth_mtk.so:system/lib/libbluetooth_mtk.so \
     vendor/google/sprout/proprietary/lib/libbluetooth_mtk_pure.so:system/lib/libbluetooth_mtk_pure.so \
-    vendor/google/sprout/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     vendor/google/sprout/proprietary/lib/libbwc.so:system/lib/libbwc.so \
     vendor/google/sprout/proprietary/lib/libcam.camadapter.so:system/lib/libcam.camadapter.so \
     vendor/google/sprout/proprietary/lib/libcam.campipe.so:system/lib/libcam.campipe.so \
