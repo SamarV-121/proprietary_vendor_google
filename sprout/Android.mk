@@ -41,6 +41,22 @@ LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libged
+LOCAL_SRC_FILES := proprietary/lib/libged.so
+LOCAL_PROPRIETARY_MODULE = true
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libnvram
+LOCAL_SRC_FILES := proprietary/lib/libnvram.so
+LOCAL_PROPRIETARY_MODULE = true
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := FmRadioTrampoline2
 LOCAL_MODULE_OWNER := google
 LOCAL_SRC_FILES := proprietary/app/FmRadioTrampoline2/FmRadioTrampoline2.apk
