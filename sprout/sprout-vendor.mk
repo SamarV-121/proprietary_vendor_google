@@ -53,7 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
     vendor/google/sprout/proprietary/lib/hw/audio.primary.mt6582.so:system/lib/hw/audio.primary.mt6582.so \
     vendor/google/sprout/proprietary/lib/hw/camera.mt6582.so:system/lib/hw/camera.mt6582.so \
-    vendor/google/sprout/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/google/sprout/proprietary/lib/hw/gralloc.mt6582.so:system/lib/hw/gralloc.mt6582.so \
     vendor/google/sprout/proprietary/lib/hw/hwcomposer.mt6582.so:system/lib/hw/hwcomposer.mt6582.so \
     vendor/google/sprout/proprietary/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
