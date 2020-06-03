@@ -61,7 +61,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
     vendor/google/sprout/proprietary/lib/hw/memtrack.mt6582.so:system/lib/hw/memtrack.mt6582.so \
     vendor/google/sprout/proprietary/lib/hw/radio.fm.mt6582.so:system/lib/hw/radio.fm.mt6582.so \
-    vendor/google/sprout/proprietary/lib/hw/sensors.mt6582.so:system/lib/hw/sensors.mt6582.so \
+    vendor/google/sprout/proprietary/lib/sensors.mt6582.so:system/lib/sensors.mt6582.so \
     vendor/google/sprout/proprietary/lib/lib3a.so:system/lib/lib3a.so \
     vendor/google/sprout/proprietary/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
     vendor/google/sprout/proprietary/lib/libMali.so:system/lib/libMali.so \
