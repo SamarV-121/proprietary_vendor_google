@@ -21,81 +21,89 @@ ifeq ($(TARGET_DEVICE),sprout)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libcam.utils
 LOCAL_MODULE_OWNER := google
-LOCAL_SRC_FILES := proprietary/lib/libcam.utils.so
+LOCAL_SRC_FILES := proprietary/vendor/lib/libcam.utils.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libcam1client
 LOCAL_MODULE_OWNER := google
-LOCAL_SRC_FILES := proprietary/lib/libcam1client.so
+LOCAL_SRC_FILES := proprietary/vendor/lib/libcam1client.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libcam_utils
 LOCAL_MODULE_OWNER := google
-LOCAL_SRC_FILES := proprietary/lib/libcam_utils.so
+LOCAL_SRC_FILES := proprietary/vendor/lib/libcam_utils.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libged
 LOCAL_MODULE_OWNER := google
-LOCAL_SRC_FILES := proprietary/lib/libged.so
+LOCAL_SRC_FILES := proprietary/vendor/lib/libged.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libion_mtk
 LOCAL_MODULE_OWNER := google
-LOCAL_SRC_FILES := proprietary/lib/libion_mtk.so
+LOCAL_SRC_FILES := proprietary/vendor/lib/libion_mtk.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libnvram
 LOCAL_MODULE_OWNER := google
-LOCAL_SRC_FILES := proprietary/lib/libnvram.so
+LOCAL_SRC_FILES := proprietary/vendor/lib/libnvram.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := librilmtk
 LOCAL_MODULE_OWNER := google
-LOCAL_SRC_FILES := proprietary/lib/librilmtk.so
+LOCAL_SRC_FILES := proprietary/vendor/lib/librilmtk.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := mtk-ril
 LOCAL_MODULE_OWNER := google
-LOCAL_SRC_FILES := proprietary/lib/mtk-ril.so
+LOCAL_SRC_FILES := proprietary/vendor/lib/mtk-ril.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
