@@ -58,7 +58,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
     vendor/google/sprout/proprietary/lib/hw/memtrack.mt6582.so:system/lib/hw/memtrack.mt6582.so \
     vendor/google/sprout/proprietary/lib/hw/radio.fm.mt6582.so:system/lib/hw/radio.fm.mt6582.so \
-    vendor/google/sprout/proprietary/lib/sensors.mt6582:system/lib/sensors.mt6582 \
+    vendor/google/sprout/proprietary/lib/sensors.mt6582.so:system/lib/sensors.mt6582.so \
     vendor/google/sprout/proprietary/lib/lib3a.so:system/lib/lib3a.so \
     vendor/google/sprout/proprietary/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
     vendor/google/sprout/proprietary/lib/libMali.so:system/lib/libMali.so \
@@ -137,7 +137,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/vendor/lib/libskia.so:$(TARGET_COPY_OUT_VENDOR)/lib/libskia.so \
     vendor/google/sprout/proprietary/vendor/lib/libwvdrm_L3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvdrm_L3.so \
     vendor/google/sprout/proprietary/vendor/lib/libwvm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvm.so \
-    vendor/google/sprout/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/google/sprout/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/google/sprout/proprietary/xbin/mnld:system/xbin/mnld
 
