@@ -109,7 +109,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/lib/libfeatureio.so:system/lib/libfeatureio.so \
     vendor/google/sprout/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
     vendor/google/sprout/proprietary/lib/libfmcust.so:system/lib/libfmcust.so \
-    vendor/google/sprout/proprietary/lib/libfmjni.so:system/lib/libfmjni.so \
     vendor/google/sprout/proprietary/lib/libhwm.so:system/lib/libhwm.so \
     vendor/google/sprout/proprietary/lib/libimageio.so:system/lib/libimageio.so \
     vendor/google/sprout/proprietary/lib/libimageio_FrmB.so:system/lib/libimageio_FrmB.so \
@@ -148,6 +147,4 @@ PRODUCT_PACKAGES += \
     libion_mtk \
     libnvram \
     librilmtk \
-    mtk-ril \
-    FMRadioGoogle \
-    FmRadioTrampoline2
+    mtk-ril
